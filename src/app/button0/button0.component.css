@@ -1,0 +1,7 @@
+button {
+  text-transform: uppercase;
+  color: rgb(3, 49, 98);
+  border-radius: 0;
+  width: 7rem;
+  font-weight: bold;
+}

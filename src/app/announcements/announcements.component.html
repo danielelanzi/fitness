@@ -1,0 +1,46 @@
+<div class="row d-flex justify-content-between setpadding14 mt-4">
+  <div class="d-inline-flex align-items-baseline color-1">
+    <fa-icon [icon]="faBell"></fa-icon>
+    <h6 class="ml-3">Avvisi</h6>
+  </div>
+  <!-- <h6 style="text-transform: initial;"><a class="color-3 text-decoration-none" (click)="acc.toggle('toggle-1')">Mostra tutti</a></h6> -->
+  <h6 style="text-transform: initial;"><a class="color-3 text-decoration-none" (click)="acc.expandAll()">Mostra
+      tutti</a></h6>
+      <h6 style="text-transform: initial;"><a class="color-3 text-decoration-none" (click)="acc.collapseAll()">Chiudi
+        tutti</a></h6>
+</div>
+<div class="setmargin10 mt-4 mb-5 shadow">
+
+  <ngb-accordion #acc="ngbAccordion">
+    <ngb-panel id="toggle-1" title="{{firstTitle}}">
+      <ng-template ngbPanelContent>
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+        officia
+        aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+        tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+        helvetica,
+        craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+        Leggings
+        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+        accusamus
+        labore sustainable VHS.
+      </ng-template>
+    </ngb-panel>
+    <!-- <ngb-panel id="toggle-2" title="{{secondTitle}}">
+      <ng-template ngbPanelContent>
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+        officia
+        aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+        tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+        helvetica,
+        craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+        Leggings
+        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+        accusamus
+        labore sustainable VHS.
+      </ng-template>
+    </ngb-panel> -->
+  </ngb-accordion>
+</div>

@@ -1,0 +1,24 @@
+<div class="row d-flex justify-content-around">
+    <div class="flex-column">
+      <ul ngbNav class="mt-5 mb-4">
+        <li ngbNavItem>
+          <fa-icon [icon]="faCalendarAlt"></fa-icon>
+        </li>
+        <li ngbNavItem class="ml-2">
+          <h6 class="color-2">
+            Le tue prossime attività
+          </h6>
+        </li>
+      </ul>
+      <app-card-current></app-card-current>
+      <app-card-current></app-card-current>
+    </div>
+    <div class="flex-column">
+      <div class="mt-5 mb-4">
+        <h6 class="color-1">
+          Hai {{numberActivity}} attività in lista d'attesa
+        </h6>
+      </div>
+      <app-card-waitinglist></app-card-waitinglist>
+    </div>
+</div>

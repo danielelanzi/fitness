@@ -1,0 +1,11 @@
+.row {
+  background-image: url(../../assets/arco.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15rem;
+  text-align: start;
+}
+h6 {
+  color: white;
+  text-transform: none;
+}

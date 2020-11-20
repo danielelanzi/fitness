@@ -1,0 +1,9 @@
+button {
+  width: 11rem;
+  height: 3rem;
+  border-radius: 0;
+  background-color: rgb(212, 223, 93);
+  color: rgb(3, 49, 98);
+  font-weight: bold;
+  text-transform: uppercase;
+}

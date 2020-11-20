@@ -1,0 +1,13 @@
+<ul ngbNav>
+  <li ngbDropdown class="nav-item">
+    <a href (click)="false" class="nav-link" ngbDropdownToggle>
+      <fa-icon size="2x" [icon]="faUserCircle"></fa-icon>
+    </a>
+    <div ngbDropdownMenu class="pr-3 dropdown-menu-1">
+      <button ngbDropdownItem>Profilo</button>
+      <button ngbDropdownItem>Preferenze</button>
+      <div class="dropdown-divider"></div>
+      <button ngbDropdownItem>Logout</button>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,7 @@
+a fa-icon {
+  color: lightslategrey;
+}
+
+a fa-icon:hover {
+  color: rgb(212, 223, 93);
+}
