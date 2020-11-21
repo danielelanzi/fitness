@@ -1,3 +1,20 @@
-h6{
+h6 {
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 575px) {
+  hr{
+    display: block!important;
+    width: 100%;
+  }
+  div > div:last-child {
+    justify-content: center;
+    flex-direction: column;
+  }
+  div > div:last-child p {
+    align-self: center;
+  }
+  div > div:last-child app-button0 {
+    align-self: center;
+  }
 }

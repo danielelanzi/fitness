@@ -1,0 +1,27 @@
+mat-panel-description {
+  margin: 0 5% 0 1%;
+  height: 5rem;
+  align-items: center;
+}
+
+.closed {
+  color: #ea794d;
+}
+.open {
+  list-style: none;
+}
+.hidden{
+  display: none;
+}
+
+h6 {
+  text-transform: none;
+  color: black;
+}
+
+.mat-expansion-panel-header /deep/ .mat-expansion-indicator::after {
+  color: gray;
+}
+.mat-expansion-panel-header /deep/ span.mat-expansion-indicator  {
+  align-self: center;
+}

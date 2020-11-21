@@ -9,8 +9,6 @@ import { faBell } from '@fortawesome/free-solid-svg-icons';
 export class AnnouncementsComponent implements OnInit {
 
   faBell = faBell;
-  firstTitle = "Chiusure straordinarie per vacanze di Natale";
-  secondTitle = "Chiusure straordinarie per vacanze di Natale";
 
   constructor() { }
 

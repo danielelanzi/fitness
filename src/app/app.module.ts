@@ -18,7 +18,12 @@ import { Button0Component } from './button0/button0.component';
 import { Banner0Component } from './banner0/banner0.component';
 import { Button1Component } from './button1/button1.component';
 import { AnnouncementsComponent } from './announcements/announcements.component';
-import { ModalAnnouncementsComponent } from './announcements/modal-announcements/modal-announcements.component';
+import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { Accordion0Component } from './accordion0/accordion0.component';
+import {MatExpansionModule} from '@angular/material/expansion';
+import { Banner1Component } from './banner1/banner1.component';
+import { CardMagazineComponent } from './card-magazine/card-magazine.component';
+
 
 @NgModule({
   declarations: [
@@ -37,12 +42,17 @@ import { ModalAnnouncementsComponent } from './announcements/modal-announcements
     Banner0Component,
     Button1Component,
     AnnouncementsComponent,
-    ModalAnnouncementsComponent,
+    Accordion0Component,
+    Banner1Component,
+    CardMagazineComponent
    ],
   imports: [
     BrowserModule,
     NgbModule,
     FontAwesomeModule,
+    NoopAnimationsModule,
+    BrowserAnimationsModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]

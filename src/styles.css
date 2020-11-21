@@ -12,6 +12,9 @@ body {
 .setmargin10 {
   margin: 0 5% 0 5%;
 }
+.setmargin14 {
+  margin: 0 7% 0 7%;
+}
 .setpadding20 {
   padding: 0 10% 0 10%;
 }
@@ -22,17 +25,23 @@ h6 {
   text-transform: uppercase;
 }
 .color-1 {
-  color: rgb(3, 49, 98);
+  color: #033162;
 }
 .color-2 {
-  color: rgb(212, 223, 93);
+  color: #d4df5d;
 }
 .color-3 {
-  color: rgb(234, 121, 77);
+  color: #ea794d;
 }
 a fa-icon {
   line-height: normal;
 }
 .card {
   border-radius: 0;
+}
+
+@media screen and (max-width: 1059px){
+  body{
+    background-position: left;
+  }
 }

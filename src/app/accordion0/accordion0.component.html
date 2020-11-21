@@ -1,0 +1,26 @@
+<div class="row setpadding14 mt-2">
+  <mat-accordion #myaccordion="matAccordion" multi="true" class="shadow mb-3">
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-description class="justify-content-between pt-3">
+          <div class="">
+            <ul>
+              <li class="{{panelOpenState ? 'open' : 'closed'}}">
+                <h6 class="ml-4">{{firstTitle}}</h6>
+              </li>
+            </ul>
+          </div>
+          <p class="text-muted"><small>{{dateTitle}}</small></p>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div class="setmargin14">
+        <p class="{{openParagaph ? 'show' : 'hidden'}}">{{str}} <a mat-button (click)="openParagaph = false"
+            class="color-3 text-decoration-none float-right">Minimizza</a></p>
+      </div>
+      <div class="setmargin14">
+        <p class="{{openParagaph ? 'hidden' : 'show'}}">{{(str.length>6)? (str | slice:0:390)+'...':(str)}} <a
+            mat-button (click)="openParagaph = true" class="color-3 text-decoration-none">Altro</a></p>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

@@ -1,0 +1,33 @@
+.row {
+  background-image: url(../../assets/iphone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 15rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:first-child {
+  max-width: 13rem;
+}
+img:last-child{
+  max-width: 11rem;
+  border-radius: 0.7rem;;
+}
+
+@media screen and (max-width: 1300px){
+  .row{
+    padding: 0;
+  }
+}
+.row div{
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1023px){
+  div{
+    display: none!important;
+  }
+}
+

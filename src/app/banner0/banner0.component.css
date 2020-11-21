@@ -2,10 +2,19 @@
   background-image: url(../../assets/arco.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  height: 15rem;
-  text-align: start;
+  min-height: 15rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 h6 {
   color: white;
   text-transform: none;
 }
+
+@media screen and (max-width: 1023px){
+  div{
+    display: none!important;
+  }
+}
+
