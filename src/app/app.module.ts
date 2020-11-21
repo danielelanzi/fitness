@@ -21,8 +21,15 @@ import { AnnouncementsComponent } from './announcements/announcements.component'
 import { BrowserAnimationsModule, NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { Accordion0Component } from './accordion0/accordion0.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCardModule} from '@angular/material/card';
+import {CarouselModule} from 'ngx-bootstrap/carousel';
 import { Banner1Component } from './banner1/banner1.component';
 import { CardMagazineComponent } from './card-magazine/card-magazine.component';
+import { CardEventsComponent } from './card-magazine/card-events/card-events.component';
+import { ImageEventsComponent } from './card-magazine/card-events/image-events/image-events.component';
+import { InformationsEventsComponent } from './card-magazine/card-events/informations-events/informations-events.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -44,7 +51,12 @@ import { CardMagazineComponent } from './card-magazine/card-magazine.component';
     AnnouncementsComponent,
     Accordion0Component,
     Banner1Component,
-    CardMagazineComponent
+    CardMagazineComponent,
+    CardEventsComponent,
+    ImageEventsComponent,
+    InformationsEventsComponent,
+    CarouselComponent,
+    FooterComponent
    ],
   imports: [
     BrowserModule,
@@ -52,7 +64,9 @@ import { CardMagazineComponent } from './card-magazine/card-magazine.component';
     FontAwesomeModule,
     NoopAnimationsModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

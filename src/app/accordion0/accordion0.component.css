@@ -1,7 +1,5 @@
-mat-panel-description {
-  margin: 0 5% 0 1%;
-  height: 5rem;
-  align-items: center;
+.mat-expansion-panel {
+  min-height: 5rem;
 }
 
 .closed {
@@ -10,18 +8,44 @@ mat-panel-description {
 .open {
   list-style: none;
 }
-.hidden{
+.hidden {
   display: none;
+}
+
+li {
+  direction: rtl;
+  margin: auto;
 }
 
 h6 {
   text-transform: none;
   color: black;
+  font-size: 0.8rem;
+}
+p {
+  margin: auto;
+  font-size: 0.7rem;
 }
 
 .mat-expansion-panel-header /deep/ .mat-expansion-indicator::after {
   color: gray;
+  font-size: 0.8rem;
 }
-.mat-expansion-panel-header /deep/ span.mat-expansion-indicator  {
+.mat-expansion-panel-header /deep/ span.mat-expansion-indicator {
   align-self: center;
+}
+
+@media screen and (min-width: 769px) {
+  .display-f {
+    display: flex;
+    align-items: baseline;
+  }
+  li {
+    direction: initial;
+    margin: 0;
+  }
+  p {
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+  }
 }

@@ -2,13 +2,11 @@
   <mat-accordion #myaccordion="matAccordion" multi="true" class="shadow mb-3">
     <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
       <mat-expansion-panel-header>
-        <mat-panel-description class="justify-content-between pt-3">
-          <div class="">
-            <ul>
-              <li class="{{panelOpenState ? 'open' : 'closed'}}">
-                <h6 class="ml-4">{{firstTitle}}</h6>
-              </li>
-            </ul>
+        <mat-panel-description class="justify-content-between">
+          <div class="display-f mt-4">
+            <li class="{{panelOpenState ? 'open' : 'closed'}}">
+            </li>
+            <h6 class="text-wrap ml-4">{{firstTitle}}</h6>
           </div>
           <p class="text-muted"><small>{{dateTitle}}</small></p>
         </mat-panel-description>

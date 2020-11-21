@@ -1,4 +1,4 @@
-import { Input, ViewChild } from '@angular/core';
+import { ViewChild } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { MatAccordion } from '@angular/material/expansion';
 
