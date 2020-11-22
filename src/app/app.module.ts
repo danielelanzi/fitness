@@ -28,7 +28,7 @@ import { CardMagazineComponent } from './card-magazine/card-magazine.component';
 import { CardEventsComponent } from './card-magazine/card-events/card-events.component';
 import { ImageEventsComponent } from './card-magazine/card-events/image-events/image-events.component';
 import { InformationsEventsComponent } from './card-magazine/card-events/informations-events/informations-events.component';
-import { CarouselComponent } from './carousel/carousel.component';
+// import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
 
 
@@ -55,7 +55,7 @@ import { FooterComponent } from './footer/footer.component';
     CardEventsComponent,
     ImageEventsComponent,
     InformationsEventsComponent,
-    CarouselComponent,
+    // CarouselComponent,
     FooterComponent
    ],
   imports: [
