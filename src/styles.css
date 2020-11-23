@@ -34,9 +34,3 @@ a fa-icon {
 .card {
   border-radius: 0;
 }
-
-@media screen and (max-width: 1059px){
-  body{
-    background-position: left;
-  }
-}
