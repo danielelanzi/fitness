@@ -1,0 +1,13 @@
+.container-fluid{
+  background-image: url("../../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 15rem !important;
+}
+
+@media screen and (max-width: 1059px){
+  .container-fluid{
+    background-position: left;
+  }
+}

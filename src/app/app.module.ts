@@ -28,8 +28,10 @@ import { CardMagazineComponent } from './card-magazine/card-magazine.component';
 import { CardEventsComponent } from './card-magazine/card-events/card-events.component';
 import { ImageEventsComponent } from './card-magazine/card-events/image-events/image-events.component';
 import { InformationsEventsComponent } from './card-magazine/card-events/informations-events/informations-events.component';
-// import { CarouselComponent } from './carousel/carousel.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { RouterModuleRoutes } from './route-module.routing';
+import { PrenotazioniComponent } from './prenotazioni/prenotazioni.component';
 
 
 @NgModule({
@@ -55,8 +57,9 @@ import { FooterComponent } from './footer/footer.component';
     CardEventsComponent,
     ImageEventsComponent,
     InformationsEventsComponent,
-    // CarouselComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    PrenotazioniComponent
    ],
   imports: [
     BrowserModule,
@@ -66,7 +69,8 @@ import { FooterComponent } from './footer/footer.component';
     BrowserAnimationsModule,
     MatExpansionModule,
     MatCardModule,
-    CarouselModule.forRoot()
+    CarouselModule.forRoot(),
+    RouterModuleRoutes
   ],
   providers: [],
   bootstrap: [AppComponent]
