@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImageEventsComponent implements OnInit {
 
-  img = "../../../../assets/postural.png";
+  img = "../../../../assets/postural.jpeg";
+  img1 = "../../../../assets/postural.jpg";
 
   constructor() { }
 
