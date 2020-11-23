@@ -4,3 +4,9 @@ li fa-icon {
 li {
   line-height: normal;
 }
+
+@media screen and (max-width: 683px){
+  .mobile{
+    display: none;
+  }
+}

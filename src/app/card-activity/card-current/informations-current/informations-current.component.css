@@ -1,3 +1,11 @@
 h6 {
   text-transform: capitalize;
 }
+
+
+@media screen and (max-width: 683px){
+  .color-back{
+    background-color: #d4df5d;
+  }
+}
+
